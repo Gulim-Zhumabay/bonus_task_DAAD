@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         int[] sizes = {100, 1000, 10000};
         for (int pass = 0; pass < 3; pass++) run(sizes, pass == 0 ? "warmup" : pass == 1 ? "random" : "sorted");
